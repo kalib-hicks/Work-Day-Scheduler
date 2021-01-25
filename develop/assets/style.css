@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  background-color: rgb(194, 238, 238);
+  font-family: "poppins";
   font-size: 16px;
   line-height: 1;
 }
@@ -28,18 +29,20 @@ textarea {
 
 /* time block styles*/
 .time-block {
+  background-color: rgb(194, 238, 238);
   text-align: center;
   border-radius: 15px;
 }
 
 .row {
+  background-color: rgb(194, 238, 238);
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(109, 145, 145);
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -48,7 +51,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #126072;
   color: white;
 }
 
@@ -57,25 +60,3 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-/* media query*/
-@media screen and (max-width: 768px), screen and (max-width: 575px) {
-  .row {
-    height: auto;
-    margin-top: 20px;
-  }
-
-  .hour {
-    padding-right: 17%;
-  }
-
-  .saveBtn {
-    border: 0;
-    border-radius: 0.25rem;
-    height: 50px;
-  }
-
-  textarea {
-    min-height: 85px;
-    border: 0;
-  }
-}
