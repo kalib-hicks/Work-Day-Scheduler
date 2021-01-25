@@ -9,7 +9,7 @@ This is a browser based product that uses javascript to function.
 This webpage features dynamically updated current time, dynamically updating colors based on the the time of certain tasks,
 and storage of tasks in local storage.
 
-![image of webpage with empty tasks](develop/webpage.PNG)
+![image of webpage with empty tasks](webpage.PNG)
 
 ## Built With
 * HTML
