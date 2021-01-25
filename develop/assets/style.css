@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(194, 238, 238);
+  background-color: rgb(201, 201, 201);
   font-family: "poppins";
   font-size: 16px;
   line-height: 1;
@@ -29,13 +29,13 @@ textarea {
 
 /* time block styles*/
 .time-block {
-  background-color: rgb(194, 238, 238);
+  background-color: rgb(201, 201, 201);
   text-align: center;
   border-radius: 15px;
 }
 
 .row {
-  background-color: rgb(194, 238, 238);
+  background-color: rgb(201, 201, 201);
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
@@ -45,6 +45,23 @@ textarea {
   background-color: rgb(109, 145, 145);
   color: #000000;
   border-top: 1px dashed #000000;
+}
+
+
+/* stylings for outdated, current, and now tasks*/
+.past {
+  background-color: #696868;
+  color: white;
+}
+
+.present {
+  background-color: #9ff58a;
+  color: white;
+}
+
+.now {
+  background-color: #da6556;
+  color: white;
 }
 
 .saveBtn {
