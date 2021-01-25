@@ -8,18 +8,10 @@ This is a browser based product that uses javascript to function.
 ​
 ## Usage 
 ​
-This product was designed to generate a random password following certain guidelines.
+This webpage features dynamically updated current time, dynamically updating colors based on the the time of certain tasks,
+and storage of tasks in local storage.
 
-Once on the page, an alert will explain how to get through the quetions to recieve your password. 
-
-Click generate to begin
-Enter desired length of password
-Enter yes or no for uppercase
-Enter yes or no for lowercase
-Enter yes or no for special characters
-Password will be generated
-
-![image of webpage with empty tasks](rng.PNG)
+![image of webpage with empty tasks](./develop/webpage.PNG)
 
 ## Built With
 * HTML
